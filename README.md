@@ -12,26 +12,6 @@ Requirements - Node.js (v14 or higher) - PostgreSQL (v13 or higher)
 
 - [ ] Install the dependencies: `npm install` 
 
-- [ ] Configuration 
-
-  Create a `.env.development` file in the root directory. (In this case I already setup the file and its configuration)
-
-  Configure the following environment variables in the `.env.development`.development file:
-
-  > AWS_REGION=ap-southeast-2
-  >
-  > AWS_SECRET_NAME=edu-admin-api-db-config
-  >
-  > AWS_ACCESS_KEY_ID=AKIAZPQQVP6FZXN3DIU4
-  >
-  > AWS_SECRET_ACCESS_KEY=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
-  >
-  > DB_HOST=education.cwloplmga2mq.ap-southeast-2.rds.amazonaws.com
-  >
-  > DB_PORT=5432
-  >
-  > DB_DATABASE=edu
-
 Database Setup 
 
 1. The database is hosted in AWS - AWS RDS PostgreSQL. 
